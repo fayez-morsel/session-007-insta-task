@@ -151,6 +151,11 @@ article{
     padding-left: 5px;
     padding-bottom: 18px;
     font-weight: bolder;
+    transition: all 0.3s ease-in-out;
+}
+
+.logface>a:hover{
+    border-bottom: solid 1px var(--link-color);
 }
 
 .up{

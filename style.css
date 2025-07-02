@@ -181,6 +181,11 @@ article{
 .down>a{
     color: var(--text-color);
     font-size: 13.4px;
+    transition:all 0.3s ease-in-out;
+}
+
+.down>a:hover{
+    color: var(--button-color);
 }
 
 .footer{

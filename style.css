@@ -93,6 +93,10 @@ article{
     font-size: 12px;
 }
 
+#username,#password:hover{
+    cursor:pointer;
+}
+
 
 #loginbtn{
     width: 270px;

@@ -12,6 +12,7 @@
 
     .div1{
         display: none;
+        min-width: 340px;
     }
 
     article{
@@ -151,6 +152,11 @@ article{
 
 .logo{
     padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
 }
 
 .down{

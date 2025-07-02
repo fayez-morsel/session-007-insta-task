@@ -1,5 +1,134 @@
+:root{
+    --bg-color: #000;
+    --bg-input: #121212;
+    --text-color: #fff;
+    --button-color: #3441af;
+    --border-color: #555555;
+    --link-color: #3579ea;
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--bg-color);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+    height: 491px;
+    width: 585px;
+}
+
+article{
+    width: 985px;
+    height: 523px;
+    display: flex;
+    gap: 10px;
+    padding-top:10px;
+}
+
+.div2{
+    width: 350px;
+    height: 479px;
+    padding-top: 20px;
+}
+
+.head{
+    height: 408px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#login{
+    height: 277px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#username,#password{
+    width: 270px;
+    height: 38px;
+    background-color: var(--bg-input);
+    color: var(--text-color);
+    padding-left: 10px;
+    border: solid 1px var(--border-color);
+    border-radius: 3px;
+}
+
+#username,#password::placeholder{
+    font-size: 12px;
+}
+
+#loginbtn{
+    width: 270px;
+    height: 32px;
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border: solid 1px var(--button-color);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.or{
+    width: 270px;
+    display: flex;
+    padding: 0 5px;
+    margin: 5px 0;
+}
+
+.or>div{
+    width: 100%;
+    height: 1px;
+    border-top: solid 0.5px var(--border-color);
+    margin-top: 8px;
+}
+
+.or>span{
+    color: #a8a8a8;
+    margin: 0 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.logface{
+    display: flex;
+    width: 270px;
+    justify-content: center;
+}
+
+.logface>a{
+    color: var(--link-color);
+    font-size: 15px;
+    height: 18px;
+    padding-top: 4px;
+    padding-left: 5px;
+}
+
+.up{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo{
+    padding: 10px;
 }
